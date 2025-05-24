@@ -5,7 +5,7 @@ using UnityEngine;
 public class Rotation : MonoBehaviour
 {
     public float angulom, anguloM, velocidadAngular;
-    public float direccionInicial = 1.0f; // 👈 添加这个：让 Inspector 控制方向
+    public float direccionInicial = 1.0f; // allows control of direction from Inspector
     
     Vector3 angulo;
     float direccion, //1.0f positiva, -1.0f negativa

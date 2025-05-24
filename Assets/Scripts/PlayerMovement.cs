@@ -5,21 +5,21 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public float velocidadMovimiento = 5.0f;   // 移动速度
-    public float fuerzaSalto = 5.0f;           // 跳跃力度
+    public float velocidadMovimiento = 5.0f;   // Movement speed
+    public float fuerzaSalto = 5.0f;           // Jump force
 
     [Header("Ground Detection")]
-    public LayerMask groundMask;              // 地面层
-    public Transform groundCheck;             // 脚下检测点
-    public float groundCheckRadius = 0.2f;     // 检测范围
+    public LayerMask groundMask;              // Ground layer
+    public Transform groundCheck;             // Ground check point
+    public float groundCheckRadius = 0.2f;     // Detection radius
 
     private Rigidbody rb;
     private Animator animator;
     private bool isGrounded;
-    private int jumpCount = 0;  // 用于记录跳跃次数
-    private bool jumpPressed = false; // 跟踪跳跃键是否已被按下
-    private float jumpCooldown = 0.2f; // 跳跃冷却时间
-    private float lastJumpTime = -1f; // 上次跳跃时间
+    private int jumpCount = 0;  // Used to track jump count
+    private bool jumpPressed = false; // Track if jump button is pressed
+    private float jumpCooldown = 0.2f; // Jump cooldown time
+    private float lastJumpTime = -1f; // Last jump time
 
     void Start()
     {
@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // 检测地面
+        // Ground detection
         isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckRadius, groundMask);
         animator.SetBool("isGrounded", isGrounded);
 
@@ -40,27 +40,27 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isWalking", inputDirection.magnitude > 0.1f);
         rb.MovePosition(rb.position + inputDirection * velocidadMovimiento * Time.deltaTime);
 
-        // 如果在地面上，重置跳跃次数
+        // Reset jump count when grounded
         if (isGrounded)
         {
             jumpCount = 0;
             animator.SetBool("isJumping", false);
         }
 
-        // 跳跃处理逻辑优化
+        // Jump handling logic optimization
         bool jumpButtonDown = Input.GetButtonDown("Jump");
         
-        // 确保按钮必须先释放再按下才能触发新跳跃
+        // Make sure button must be released and pressed again to trigger new jump
         if (!jumpPressed && jumpButtonDown && jumpCount < 2 && Time.time > lastJumpTime + jumpCooldown)
         {
-            rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z); // 重置竖直速度，确保跳跃一致
+            rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z); // Reset vertical velocity for consistent jumps
             rb.AddForce(Vector3.up * fuerzaSalto, ForceMode.Impulse);
             animator.SetBool("isJumping", true);
             jumpCount++;
             lastJumpTime = Time.time;
         }
         
-        // 更新跳跃按键状态
+        // Update jump button state
         jumpPressed = Input.GetButton("Jump");
     }
 }
