@@ -150,7 +150,7 @@ RectTransform:
   m_GameObject: {fileID: 157941341}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7612, y: 0.7612, z: 0.7612}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1233493600}
@@ -321,8 +321,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb11b27b8b34d1f44aba4b8ba424b460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeTime: 14.5
-  sceneName: SampleScene
+  duracionCinematica: 20
+  gameplaySceneName: 
 --- !u!4 &689066175
 Transform:
   m_ObjectHideFlags: 0
@@ -403,7 +403,7 @@ RectTransform:
   m_GameObject: {fileID: 984533200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7612, y: 0.7612, z: 0.7612}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1233493600}
