@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu unicio.unity
+    guid: 284974cb92019d340b9f70a235c9040d
+  - enabled: 1
+    path: Assets/Scenes/cinematica1.unity
+    guid: 65efc3e580d86d54bac83b79569a7dd6
+  - enabled: 1
+    path: Assets/Scenes/Scene 2.unity
+    guid: 83b8438e2effcb341badbc9bdfc4f997
   m_configObjects: {}
