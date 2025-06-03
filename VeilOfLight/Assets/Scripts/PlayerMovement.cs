@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float fallMultiplier = 2.5f;   // Fall gravity multiplier
     [SerializeField] private float lowJumpMultiplier = 2.0f;// Low jump gravity multiplier
     [SerializeField] private float maxFallSpeed = 10f;      // Maximum fall speed
+    [SerializeField] private bool facingRight = true;       // Initial facing direction
 
     [Header("Ground Detection")]
     [SerializeField] private LayerMask groundMask;          // Ground layer
@@ -27,17 +28,19 @@ public class PlayerMovement : MonoBehaviour
     private bool jumpKeyReleased = true;
     private float groundedTime = 0f;
 
+
     private void Start()
     {
         InitializeComponents();
     }
 
     private void Update()
-    {
+    { 
         CheckGrounded();
         UpdateGroundedTime();
         HandleJumpInput();
         ApplyExtraGravity();
+
     }
 
     private void FixedUpdate()
@@ -123,8 +126,19 @@ public class PlayerMovement : MonoBehaviour
     private void HandleMovement()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-        Vector3 inputDirection = new Vector3(horizontal, 0f, vertical).normalized;
+        //float vertical = Input.GetAxisRaw("Vertical");
+        //Vector3 inputDirection = new Vector3(horizontal, 0f, vertical).normalized;
+        Vector3 inputDirection = new Vector3(horizontal, 0f,0f).normalized;
+
+        // Check and update facing direction
+        if (horizontal > 0 && !facingRight)
+        {
+            FlipCharacter();
+        }
+        else if (horizontal < 0 && facingRight)
+        {
+            FlipCharacter();
+        }
 
         // Only move when there is input
         if (inputDirection.magnitude > 0.1f)
@@ -189,5 +203,19 @@ public class PlayerMovement : MonoBehaviour
             isJumping = false;
         }
     }
+
+    /// Flip the character's facing direction
+    private void FlipCharacter()
+    {
+        // Switch the facing direction flag
+        facingRight = !facingRight;
+        
+        // Flip the character by scaling on X-axis
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
+
+
 
 } 
