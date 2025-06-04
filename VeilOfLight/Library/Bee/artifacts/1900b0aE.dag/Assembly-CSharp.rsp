@@ -378,6 +378,7 @@
 "Assets/Scripts/PlayerScore.cs"
 "Assets/Scripts/RotarAleatorio.cs"
 "Assets/Scripts/Rotate.cs"
+"Assets/Scripts/SombraUIManager.cs"
 -langversion:9.0
 
 /deterministic
