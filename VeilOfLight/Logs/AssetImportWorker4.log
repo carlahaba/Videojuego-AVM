@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'zh' Physical Memory: 16085 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'es' Physical Memory: 16310 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Software\unity\2022.3.20f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker4
 -projectPath
-D:/Software/GITHUB/VeilOfLight
+C:/Users/carla/Desktop/Videojuego-AVM/VeilOfLight
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-61668
-Successfully changed project path to: D:/Software/GITHUB/VeilOfLight
-D:/Software/GITHUB/VeilOfLight
+51659
+Successfully changed project path to: C:/Users/carla/Desktop/Videojuego-AVM/VeilOfLight
+C:/Users/carla/Desktop/Videojuego-AVM/VeilOfLight
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,65 @@ D:/Software/GITHUB/VeilOfLight
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [33212] Host "[IP] 192.168.1.129 [Port] 0 [Flags] 2 [Guid] 3863134026 [EditorId] 3863134026 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27188] Host "[IP] 192.168.1.141 [Port] 0 [Flags] 2 [Guid] 3287910382 [EditorId] 3287910382 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U7UFVUJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [33212] Host "[IP] 192.168.1.129 [Port] 0 [Flags] 2 [Guid] 3863134026 [EditorId] 3863134026 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27188] Host "[IP] 192.168.1.141 [Port] 0 [Flags] 2 [Guid] 3287910382 [EditorId] 3287910382 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U7UFVUJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 6.61 ms, found 2 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 108.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
-[Subsystems] Discovering subsystems at path D:/Software/unity/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Software/GITHUB/VeilOfLight/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/carla/Desktop/Videojuego-AVM/VeilOfLight/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     8020 MB
-    Driver:   32.0.15.6636
+    VRAM:     12115 MB
+    Driver:   32.0.15.7260
 Initialize mono
-Mono path[0] = 'D:/Software/unity/2022.3.20f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Software/unity/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Software/unity/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Software/unity/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006401 seconds.
-- Loaded All Assemblies, in  0.604 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009552 seconds.
+- Loaded All Assemblies, in  0.792 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.371 seconds
-Domain Reload Profiling: 974ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  0.338 seconds
+Domain Reload Profiling: 1128ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (227ms)
-		LoadAssemblies (176ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (524ms)
+		LoadAssemblies (130ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (222ms)
-				TypeCache.ScanAssembly (201ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (522ms)
+			TypeCache.Refresh (520ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (371ms)
+	FinalizeReload (339ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (278ms)
+		SetupLoadedEditorAssemblies (269ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (14ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,340 +115,10 @@ Domain Reload Profiling: 974ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.881 seconds
-Refreshing native plugins compatible for Editor in 6.70 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.558 seconds
+Refreshing native plugins compatible for Editor in 3.06 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-New Unity Project
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.365 seconds
-Domain Reload Profiling: 4245ms
-	BeginReloadAssembly (366ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (169ms)
-	RebuildNativeTypeToScriptingClass (86ms)
-	initialDomainReloadingComplete (158ms)
-	LoadAllAssembliesAndSetupDomain (1099ms)
-		LoadAssemblies (870ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (471ms)
-			TypeCache.Refresh (364ms)
-				TypeCache.ScanAssembly (336ms)
-			ScanForSourceGeneratedMonoScriptInfo (73ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (2366ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1788ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (160ms)
-			ProcessInitializeOnLoadAttributes (1298ms)
-			ProcessInitializeOnLoadMethodAttributes (295ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.34 seconds
-Refreshing native plugins compatible for Editor in 11.15 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3856 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (0.8 MB). Loaded Objects now: 4323.
-Memory consumption went from 174.3 MB to 173.5 MB.
-Total: 14.557600 ms (FindLiveObjects: 0.657900 ms CreateObjectMapping: 0.308100 ms MarkObjects: 12.312000 ms  DeleteObjects: 1.275400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.963 seconds
-Refreshing native plugins compatible for Editor in 5.48 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-New Unity Project
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.402 seconds
-Domain Reload Profiling: 3364ms
-	BeginReloadAssembly (341ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (464ms)
-		LoadAssemblies (507ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (79ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (2403ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (736ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (420ms)
-			ProcessInitializeOnLoadMethodAttributes (169ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 8.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3753 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4341.
-Memory consumption went from 150.9 MB to 150.1 MB.
-Total: 9.447000 ms (FindLiveObjects: 0.654800 ms CreateObjectMapping: 0.369300 ms MarkObjects: 7.688800 ms  DeleteObjects: 0.728700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 822522.860099 seconds.
-  path: Assets/Material/Materials/Material.014.mat
-  artifactKey: Guid(b1323da8bef641c4d9368ba7418d9c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Material.014.mat using Guid(b1323da8bef641c4d9368ba7418d9c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef2e86e1635d2bacb7866078ec16e61') in 0.364939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Material/Materials/Metal Gate.mat
-  artifactKey: Guid(b172f7722682571448958541b9a4672f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Metal Gate.mat using Guid(b172f7722682571448958541b9a4672f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a552e1e2f2d65915cfa2a96fe16e237') in 0.114180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Material/Materials/Muralla01.mat
-  artifactKey: Guid(58f92234b81b12c4cbccec4bbf4845bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Muralla01.mat using Guid(58f92234b81b12c4cbccec4bbf4845bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0aff6f59a1d4d48a0448cff50780538') in 0.037547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Material/Materials/Muralla03.mat
-  artifactKey: Guid(da429e27064fc6b42a325215113fd645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Muralla03.mat using Guid(da429e27064fc6b42a325215113fd645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd45f3c144b4a12ead25a9cd08420a95') in 0.032932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Material/Materials/montaña1.001.mat
-  artifactKey: Guid(5d3cd0b4d519f2c4eb2714fde912fe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/montaña1.001.mat using Guid(5d3cd0b4d519f2c4eb2714fde912fe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34be67134854d9d740dbd7e5eb2f3edb') in 0.028607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Material/Materials/Piedras.mat
-  artifactKey: Guid(7c76f74e3bb9f4342a2baef6dc625ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Piedras.mat using Guid(7c76f74e3bb9f4342a2baef6dc625ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cf3380701181616597e7f15c38bbcc') in 0.035135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Material/Materials/montaña2.mat
-  artifactKey: Guid(c84c9950e08961c47b3aef468f98add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/montaña2.mat using Guid(c84c9950e08961c47b3aef468f98add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af522333e6ac0b6a90aa1e26dd0254f') in 0.044002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Material/Materials/Medieval box 5.mat
-  artifactKey: Guid(b4b7afecfb55d2e4e89e93e230633c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Medieval box 5.mat using Guid(b4b7afecfb55d2e4e89e93e230633c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9a7e1947b0cc0984fabea43ed19869') in 0.289038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Material/Materials/Medieval Cloth.mat
-  artifactKey: Guid(068f2051d1bedd5498e292010dc4ee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Medieval Cloth.mat using Guid(068f2051d1bedd5498e292010dc4ee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8f2a994dd29a80947fa3470f302ad0') in 0.096569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.137465 seconds.
-  path: Assets/Material/Materials/PuenteBaran.mat
-  artifactKey: Guid(5efbe874751c80b4cb12e7c6e38fa825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/PuenteBaran.mat using Guid(5efbe874751c80b4cb12e7c6e38fa825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415bc6d51f1a7862052e37128001e806') in 0.048383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Material/Materials/puerta.mat
-  artifactKey: Guid(f79b9872a0c94734c97d39b8a4aa16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/puerta.mat using Guid(f79b9872a0c94734c97d39b8a4aa16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3b0cdf7c4eb94f2b4b0dc1e2199778') in 0.055755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Material/Materials/Red.mat
-  artifactKey: Guid(9e63f4ef76d022241ba7068ec31969cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Red.mat using Guid(9e63f4ef76d022241ba7068ec31969cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7978253c7f466d85ac973bce4133877e') in 0.054873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Material/Materials/RAL Classic Red hues.078.mat
-  artifactKey: Guid(788399b63263eac4b955557ff1d51a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/RAL Classic Red hues.078.mat using Guid(788399b63263eac4b955557ff1d51a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd648081a328b1e71d366b6aae4842f3') in 0.057974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Material/Materials/Stas_22.mat
-  artifactKey: Guid(2c5acbdbca8121d4896aef0cbab62f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Stas_22.mat using Guid(2c5acbdbca8121d4896aef0cbab62f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578564e3edb634ab1bf8719dec5ac10c') in 0.041358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Material/Materials/verde.002.mat
-  artifactKey: Guid(264b6d90d491efc4c9b15511fe3aa8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/verde.002.mat using Guid(264b6d90d491efc4c9b15511fe3aa8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe518a1c48568e8b562acb8b60fb116d') in 0.043464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Material/Materials/Wind Generator_Metal Stand.mat
-  artifactKey: Guid(350dd7d2fd8507e428dc5c8b1c5c141f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Wind Generator_Metal Stand.mat using Guid(350dd7d2fd8507e428dc5c8b1c5c141f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e835b2dd79782c84d05fa0422d2309') in 0.047041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Material/Materials/Wind Generator_The Fixing for The Screw.mat
-  artifactKey: Guid(1e76e8297170e7246a158f1a0bbf8629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Wind Generator_The Fixing for The Screw.mat using Guid(1e76e8297170e7246a158f1a0bbf8629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4a448989c61155db0f7bf1c3fd9d8f') in 0.048968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Material/Materials/Wood.mat
-  artifactKey: Guid(cb7ff27c0c80afa439f59cba14aab873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Wood.mat using Guid(cb7ff27c0c80afa439f59cba14aab873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d81f0b2ca781f556a726a3257f8ad1') in 0.049406 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Material/Materials/Wood 1.mat
-  artifactKey: Guid(80c3cbbc7e7f2c646a6ada63ab12ee7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Wood 1.mat using Guid(80c3cbbc7e7f2c646a6ada63ab12ee7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fef9380bcd7beee295ef6f432c016b6') in 0.051789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Material/Materials/Wood Planks with Nails.mat
-  artifactKey: Guid(e8476a8f542c38f4d8dd10dab1e780f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Wood Planks with Nails.mat using Guid(e8476a8f542c38f4d8dd10dab1e780f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5302778c36b4806ffe294a1e0ac61991') in 0.065719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Material/Materials/Rope.mat
-  artifactKey: Guid(e5a73c56f717b5e459c5a704b81e3e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Rope.mat using Guid(e5a73c56f717b5e459c5a704b81e3e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfbfa12fddd8f9ee927a3f755729ef4') in 0.080679 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 10.305444 seconds.
-  path: Assets/Material/Light
-  artifactKey: Guid(4b2cdfcd0234e1f46a0cf982d9e69e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Light using Guid(4b2cdfcd0234e1f46a0cf982d9e69e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e965c4144870a8b19e6230650efff87b') in 0.000923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.349242 seconds.
-  path: Assets/Material/Light/Light_Red.mat
-  artifactKey: Guid(a1f7beb567b8a2c47b2cbaf53862f743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Light/Light_Red.mat using Guid(a1f7beb567b8a2c47b2cbaf53862f743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732ac567f9f0321508486f6e93152a47') in 0.029260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 700.531986 seconds.
-  path: Assets/Material/Light/New Lighting Settings.lighting
-  artifactKey: Guid(eb86bea944e753b4284bc39358850b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Light/New Lighting Settings.lighting using Guid(eb86bea944e753b4284bc39358850b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b68b06e342d335d772a7266c0c14c75') in 0.004809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1603.794247 seconds.
-  path: Assets/Material/Light/New Lighting Settings.lighting
-  artifactKey: Guid(eb86bea944e753b4284bc39358850b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Light/New Lighting Settings.lighting using Guid(eb86bea944e753b4284bc39358850b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6507c86c221f361dc951418b26d7773d') in 8.549084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.695 seconds
-Refreshing native plugins compatible for Editor in 6.13 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\Software\GITHUB\VeilOfLight\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\carla\Desktop\Videojuego-AVM\VeilOfLight\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <dc753a1061284f8e971ee88ee4826eee>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
   at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
@@ -478,180 +148,1277 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-New Unity Project
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.581 seconds
-Domain Reload Profiling: 5277ms
-	BeginReloadAssembly (650ms)
+- Finished resetting the current domain, in  0.578 seconds
+Domain Reload Profiling: 1131ms
+	BeginReloadAssembly (143ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (57ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (178ms)
-	RebuildCommonClasses (129ms)
-	RebuildNativeTypeToScriptingClass (44ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (782ms)
-		LoadAssemblies (1048ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (284ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (67ms)
-			TypeCache.Refresh (24ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (41ms)
-	FinalizeReload (3582ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (78ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (579ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1310ms)
+		SetupLoadedEditorAssemblies (422ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (17ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (189ms)
-			ProcessInitializeOnLoadAttributes (838ms)
-			ProcessInitializeOnLoadMethodAttributes (242ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (44ms)
-Refreshing native plugins compatible for Editor in 6.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3753 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4399.
-Memory consumption went from 157.6 MB to 156.8 MB.
-Total: 13.031300 ms (FindLiveObjects: 1.005800 ms CreateObjectMapping: 0.312900 ms MarkObjects: 10.886500 ms  DeleteObjects: 0.823700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.832 seconds
-Refreshing native plugins compatible for Editor in 4.05 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-New Unity Project
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.499 seconds
-Domain Reload Profiling: 3331ms
-	BeginReloadAssembly (309ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (99ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (356ms)
-		LoadAssemblies (505ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (37ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (2500ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1281ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (161ms)
-			ProcessInitializeOnLoadAttributes (869ms)
-			ProcessInitializeOnLoadMethodAttributes (217ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (41ms)
-Refreshing native plugins compatible for Editor in 7.09 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3753 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4416.
-Memory consumption went from 159.6 MB to 158.7 MB.
-Total: 13.627300 ms (FindLiveObjects: 0.687900 ms CreateObjectMapping: 0.659500 ms MarkObjects: 10.999600 ms  DeleteObjects: 1.276600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.824 seconds
-Refreshing native plugins compatible for Editor in 6.18 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-New Unity Project
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.415 seconds
-Domain Reload Profiling: 3238ms
-	BeginReloadAssembly (338ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (79ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (322ms)
-		LoadAssemblies (471ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (2416ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1240ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (177ms)
-			ProcessInitializeOnLoadAttributes (836ms)
-			ProcessInitializeOnLoadMethodAttributes (203ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (49ms)
-Refreshing native plugins compatible for Editor in 5.36 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3753 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4433.
-Memory consumption went from 161.5 MB to 160.7 MB.
-Total: 8.479400 ms (FindLiveObjects: 0.611500 ms CreateObjectMapping: 0.257300 ms MarkObjects: 6.874300 ms  DeleteObjects: 0.733900 ms)
+Unloading 3857 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (0.8 MB). Loaded Objects now: 4325.
+Memory consumption went from 173.9 MB to 173.1 MB.
+Total: 6.303600 ms (FindLiveObjects: 0.615000 ms CreateObjectMapping: 0.128400 ms MarkObjects: 4.819100 ms  DeleteObjects: 0.739200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69305.121729 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba7b96f316e892f1a592ba8b6e7903a') in 0.002980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.447 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-New Unity Project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.126 seconds
+Domain Reload Profiling: 1570ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1126ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 5.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4344.
+Memory consumption went from 151.0 MB to 150.2 MB.
+Total: 6.448600 ms (FindLiveObjects: 0.635900 ms CreateObjectMapping: 0.163600 ms MarkObjects: 5.033600 ms  DeleteObjects: 0.613900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.127418 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012665 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001991 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000942 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006841 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000894 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004272 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000808 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003776 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000864 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002310 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000798 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004409 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000860 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002829 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000935 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004612 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000820 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004717 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000742 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000747 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002971 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000811 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005117 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000751 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003481 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000759 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003744 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001134 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001102 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001045 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001606 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000796 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003803 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000888 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003120 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000785 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003884 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000810 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003542 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000779 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003730 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000845 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004300 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000901 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004542 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000776 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001100 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000758 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002646 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000858 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004629 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000861 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005227 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000801 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003894 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000787 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004130 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000812 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004035 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000884 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002752 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000781 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001578 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000699 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002330 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000683 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002834 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000683 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002269 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000629 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001713 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000658 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003318 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000599 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003275 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000709 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002998 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000747 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001728 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000619 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003587 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000714 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001389 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000845 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002713 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000611 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002528 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000720 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001924 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000586 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001451 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000644 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003683 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000886 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002143 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000645 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003079 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000652 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003162 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000807 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003113 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000629 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002253 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000647 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003158 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000709 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002776 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000622 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002559 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000783 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003141 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000648 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002415 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000653 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002258 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000591 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001435 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002513 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000589 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003285 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000622 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002596 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000682 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003316 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000570 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003419 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000616 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002895 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001037 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002437 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000729 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004059 seconds.
+  path: Assets/Scripts/RotarAleatorio.cs
+  artifactKey: Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotarAleatorio.cs using Guid(f077943945f33ad43b6797260fc01ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000736 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+  ERROR: Build asset version error: assets/scripts/rotaraleatorio.cs in SourceAssetDB has modification time of '2025-06-04T10:43:35.5817753Z' while content on disk has modification time of '2025-06-04T10:43:41.4275596Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.475 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-New Unity Project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.204 seconds
+Domain Reload Profiling: 1674ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1205ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 4.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4361.
+Memory consumption went from 153.0 MB to 152.2 MB.
+Total: 7.598700 ms (FindLiveObjects: 0.849500 ms CreateObjectMapping: 0.169800 ms MarkObjects: 5.663200 ms  DeleteObjects: 0.914100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.341559 seconds.
+  path: Assets/Material/Light
+  artifactKey: Guid(4b2cdfcd0234e1f46a0cf982d9e69e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Light using Guid(4b2cdfcd0234e1f46a0cf982d9e69e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e965c4144870a8b19e6230650efff87b') in 0.006592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.034230 seconds.
+  path: Assets/Material/Light/Light_Red.mat
+  artifactKey: Guid(a1f7beb567b8a2c47b2cbaf53862f743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Light/Light_Red.mat using Guid(a1f7beb567b8a2c47b2cbaf53862f743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672c85a7116f54fcbf1c49eabc202b5c') in 0.142225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.423697 seconds.
+  path: Assets/Material/Materials/Material #1395534412.mat
+  artifactKey: Guid(a9c9cb57cb2844444920ca7304b028ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Material #1395534412.mat using Guid(a9c9cb57cb2844444920ca7304b028ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d25e00f5c0f7f8c62089bffc432cb6') in 0.038933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Material/Materials/Material.013.mat
+  artifactKey: Guid(b48f9e5c5584ddc44a4115ead0a7842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Material.013.mat using Guid(b48f9e5c5584ddc44a4115ead0a7842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d911a63d09279173215fb33af29ac2') in 0.027497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Material/Materials/Material.014.mat
+  artifactKey: Guid(b1323da8bef641c4d9368ba7418d9c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Material.014.mat using Guid(b1323da8bef641c4d9368ba7418d9c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987b336c33f460649ac69fb4ee9a5fa5') in 0.019832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Material/Materials/Material.004.mat
+  artifactKey: Guid(54a434912e3a8e2449e4e79bdc5f8845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Material.004.mat using Guid(54a434912e3a8e2449e4e79bdc5f8845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191e5bd2b565c97881702b3bfdb13902') in 0.021670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Material/Materials/Material.016.mat
+  artifactKey: Guid(c165ddc57740f834d914355b5de8121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Material.016.mat using Guid(c165ddc57740f834d914355b5de8121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd812ffc7024829a188180a0eef78bbe0') in 0.022232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Material/Materials/Material.011.mat
+  artifactKey: Guid(de0fc9b4302825342a581f418522723a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Material.011.mat using Guid(de0fc9b4302825342a581f418522723a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc49014358d8853de9c98ed54be3a464') in 0.027463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Material/Materials/Material.003.mat
+  artifactKey: Guid(aac7096c8244f3c4aab20980884afce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Material.003.mat using Guid(aac7096c8244f3c4aab20980884afce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de76422c7f262c1cafd3e8849ef6cba0') in 0.019418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Material/Materials/Medieval Cloth.mat
+  artifactKey: Guid(068f2051d1bedd5498e292010dc4ee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Medieval Cloth.mat using Guid(068f2051d1bedd5498e292010dc4ee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811b70a96fbfe33e80a0f9c0ac45d1ff') in 0.061005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.192569 seconds.
+  path: Assets/Material/Materials/Medieval Stone Wall PBR Scan 02.001.mat
+  artifactKey: Guid(fce1fee26f699af449c78b277eed4128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Medieval Stone Wall PBR Scan 02.001.mat using Guid(fce1fee26f699af449c78b277eed4128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4098ff313d92a2f995f6fa5e63c18bbf') in 0.017476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Material/Materials/montaña1.mat
+  artifactKey: Guid(7a9d5a7217a7fcd48946e8f2eec7cca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/montaña1.mat using Guid(7a9d5a7217a7fcd48946e8f2eec7cca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd7aa61a8909caa304333d1fbc0d18f') in 0.017857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Material/Materials/mssg_104.110.mat
+  artifactKey: Guid(6614ce68e58360d4da311eacc1b55352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/mssg_104.110.mat using Guid(6614ce68e58360d4da311eacc1b55352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcf138ac0616901bf8196915395eb50') in 0.017098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Material/Materials/Montaña3.mat
+  artifactKey: Guid(10452de53b12757458649fb78c89c20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Montaña3.mat using Guid(10452de53b12757458649fb78c89c20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b3d48d86497f13a43df3b50cfa17d8') in 0.018911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Material/Materials/montaña1.001.mat
+  artifactKey: Guid(5d3cd0b4d519f2c4eb2714fde912fe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/montaña1.001.mat using Guid(5d3cd0b4d519f2c4eb2714fde912fe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24f7bb1ab8d2d309a54fbf7679bc057') in 0.016994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Material/Materials/Montaña3.001.mat
+  artifactKey: Guid(59bee5b054c5d0d4ea720ab67c72bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Montaña3.001.mat using Guid(59bee5b054c5d0d4ea720ab67c72bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6b2074c6a5f3e91994296bc2a36c9b') in 0.017204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.327694 seconds.
+  path: Assets/Material/Materials/Muralla02.mat
+  artifactKey: Guid(e5ac4e237cc6b8347b331ec9f8969ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Muralla02.mat using Guid(e5ac4e237cc6b8347b331ec9f8969ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080f2745f927254ff3e8a1400e6a4cd8') in 0.017903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Material/Materials/orange.mat
+  artifactKey: Guid(58b0eec2d03e2084d8626a3a609b4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/orange.mat using Guid(58b0eec2d03e2084d8626a3a609b4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a3ee923c4a9d385df53d4d942d6589') in 0.017168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Material/Materials/PuenteBase.mat
+  artifactKey: Guid(dfda9638814500c44a5ae248544b915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/PuenteBase.mat using Guid(dfda9638814500c44a5ae248544b915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0055adaf2b64a5d64db68108beb158') in 0.017594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Material/Materials/Red.mat
+  artifactKey: Guid(9e63f4ef76d022241ba7068ec31969cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Red.mat using Guid(9e63f4ef76d022241ba7068ec31969cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a32e8598f9871328442abf1c59605f8') in 0.016399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Material/Materials/verde_oscuro.mat
+  artifactKey: Guid(a90c8b5ba782a994f917e0406a2f37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/verde_oscuro.mat using Guid(a90c8b5ba782a994f917e0406a2f37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5498608988087b7f31cd87573c12a8e') in 0.019461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Material/Materials/RAL Classic Red hues.078.mat
+  artifactKey: Guid(788399b63263eac4b955557ff1d51a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/RAL Classic Red hues.078.mat using Guid(788399b63263eac4b955557ff1d51a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392fba483f4d1bef7e4be6deae5f9339') in 0.018731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Material/Materials/Wind Generator_Metal Stand.mat
+  artifactKey: Guid(350dd7d2fd8507e428dc5c8b1c5c141f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Wind Generator_Metal Stand.mat using Guid(350dd7d2fd8507e428dc5c8b1c5c141f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b79ce12fa721222d83fc4a4d4bf6f0') in 0.043513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Material/Materials/PuenteBaran.mat
+  artifactKey: Guid(5efbe874751c80b4cb12e7c6e38fa825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/PuenteBaran.mat using Guid(5efbe874751c80b4cb12e7c6e38fa825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804e80b04bdd73c089019c861dc6bdc9') in 0.020833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.355212 seconds.
+  path: Assets/Material/Materials/Wind Generator_Motor.mat
+  artifactKey: Guid(ba355d48f2049aa48a4033490efc72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Wind Generator_Motor.mat using Guid(ba355d48f2049aa48a4033490efc72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c74cde15688dc10340123e77186bc35') in 0.024491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Material/Materials/Wood 1.mat
+  artifactKey: Guid(80c3cbbc7e7f2c646a6ada63ab12ee7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Wood 1.mat using Guid(80c3cbbc7e7f2c646a6ada63ab12ee7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3899b4d9b0d0e13d8e6208c736521c18') in 0.019458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Material/Materials/Yellow.mat
+  artifactKey: Guid(815bc0f7547ab8f499a2b9163470d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/Yellow.mat using Guid(815bc0f7547ab8f499a2b9163470d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07cf96a934b121f5f16a6a715b12e49') in 0.022400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Material/Materials/wood_box.mat
+  artifactKey: Guid(ab60b832487208d42b9d3db67a4c67b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/wood_box.mat using Guid(ab60b832487208d42b9d3db67a4c67b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2afdd57fdb76050afd5221dcd0f15a') in 0.051506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.230294 seconds.
+  path: Assets/Material/Materials/マテリアル.001.mat
+  artifactKey: Guid(ee445f7e094c8464c979184ef2703374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/マテリアル.001.mat using Guid(ee445f7e094c8464c979184ef2703374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262cb9d0ec5a8411b0bb45b27cf8b755') in 0.022412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Material/Materials/材质.005.mat
+  artifactKey: Guid(bc92dd1e13f3e6a4f935afe24a4a6276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/材质.005.mat using Guid(bc92dd1e13f3e6a4f935afe24a4a6276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11006b457aa2d82a1ce8d06e078caad5') in 0.022922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Material/Materials/材质.006.mat
+  artifactKey: Guid(967943447b0f0c64997d60463d079020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/材质.006.mat using Guid(967943447b0f0c64997d60463d079020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c4d7ea6bcbd806cb00ed0abfb0d00f') in 0.027525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.700202 seconds.
+  path: Assets/Material/Materials/材质.010.mat
+  artifactKey: Guid(bb2b9b49459a5204f8c411d6ccf35843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/材质.010.mat using Guid(bb2b9b49459a5204f8c411d6ccf35843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3c409cc8660c4a0aa806e2e98db5e0') in 0.021373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.250620 seconds.
+  path: Assets/Material/Materials/AR3DMat PBR Dark Cement 1.mat
+  artifactKey: Guid(34922137a32670242aa69bf3ca1d1866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/AR3DMat PBR Dark Cement 1.mat using Guid(34922137a32670242aa69bf3ca1d1866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937f1953154ab60c6f5ecc296dbfd2e9') in 0.038522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.649085 seconds.
+  path: Assets/Material/Materials/sombra.mat
+  artifactKey: Guid(34922137a32670242aa69bf3ca1d1866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/sombra.mat using Guid(34922137a32670242aa69bf3ca1d1866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fe0cf6a5069333e9d5af8a96da128c') in 0.020667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.478 seconds
+Refreshing native plugins compatible for Editor in 4.21 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-New Unity Project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.395 seconds
+Domain Reload Profiling: 1869ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1396ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 5.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4419.
+Memory consumption went from 159.7 MB to 158.9 MB.
+Total: 8.600000 ms (FindLiveObjects: 0.984100 ms CreateObjectMapping: 0.164100 ms MarkObjects: 6.745400 ms  DeleteObjects: 0.704500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
@@ -666,57 +1433,308 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.755 seconds
-Refreshing native plugins compatible for Editor in 5.10 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.506 seconds
+Refreshing native plugins compatible for Editor in 4.16 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
+Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\carla\Desktop\Videojuego-AVM\VeilOfLight\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <5d5ebefe97114215928ac1d9cd096522>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-New Unity Project
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.797 seconds
-Domain Reload Profiling: 3552ms
-	BeginReloadAssembly (293ms)
+- Finished resetting the current domain, in  1.182 seconds
+Domain Reload Profiling: 1683ms
+	BeginReloadAssembly (174ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (308ms)
-		LoadAssemblies (416ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (281ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (37ms)
+		AnalyzeDomain (53ms)
 			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (2798ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1183ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1554ms)
+		SetupLoadedEditorAssemblies (491ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (193ms)
-			ProcessInitializeOnLoadAttributes (1057ms)
-			ProcessInitializeOnLoadMethodAttributes (277ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (58ms)
-Refreshing native plugins compatible for Editor in 7.57 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 5.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3753 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4450.
-Memory consumption went from 163.4 MB to 162.6 MB.
-Total: 9.883800 ms (FindLiveObjects: 0.645900 ms CreateObjectMapping: 0.353200 ms MarkObjects: 8.026700 ms  DeleteObjects: 0.853600 ms)
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4436.
+Memory consumption went from 161.6 MB to 160.8 MB.
+Total: 7.211400 ms (FindLiveObjects: 0.787800 ms CreateObjectMapping: 0.171400 ms MarkObjects: 5.508300 ms  DeleteObjects: 0.741600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.398 seconds
+Refreshing native plugins compatible for Editor in 3.47 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\carla\Desktop\Videojuego-AVM\VeilOfLight\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <5d5ebefe97114215928ac1d9cd096522>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-New Unity Project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.071 seconds
+Domain Reload Profiling: 1466ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1072ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 6.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4453.
+Memory consumption went from 163.5 MB to 162.7 MB.
+Total: 8.639800 ms (FindLiveObjects: 0.812700 ms CreateObjectMapping: 0.354300 ms MarkObjects: 6.068300 ms  DeleteObjects: 1.402900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.413 seconds
+Refreshing native plugins compatible for Editor in 3.41 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-New Unity Project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.077 seconds
+Domain Reload Profiling: 1487ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1078ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (459ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 4.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4470.
+Memory consumption went from 165.5 MB to 164.7 MB.
+Total: 5.984900 ms (FindLiveObjects: 0.676200 ms CreateObjectMapping: 0.138800 ms MarkObjects: 4.475800 ms  DeleteObjects: 0.692800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.392 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-New Unity Project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.081 seconds
+Domain Reload Profiling: 1470ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1082ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (451ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 5.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4487.
+Memory consumption went from 167.4 MB to 166.6 MB.
+Total: 7.126400 ms (FindLiveObjects: 0.666500 ms CreateObjectMapping: 0.167300 ms MarkObjects: 5.387100 ms  DeleteObjects: 0.903900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
